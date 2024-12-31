@@ -3,7 +3,7 @@
 
 ## Açıklama
 
-Bu Python programı, kullanıcıdan bir **hostname** (bilgisayar adı) değeri alır ve  users.txt ve pass.txt dosyalarındaki giriş bilgilerini kombinleyerek bir bruteforce saldırısı yapar. (tamamen eğitim amaçladır. kötü kullanımdan sorumlu değilim.)
+Bu Python programı, kullanıcıdan bir **hostname** (bilgisayar adı) değeri alır ve  users.txt ve passwords.txt dosyalarındaki giriş bilgilerini kombinleyerek bir bruteforce saldırısı yapar. (tamamen eğitim amaçladır. kötü kullanımdan sorumlu değilim.)
 
 
 Program, basit bir **input()** fonksiyonu ile kullanıcıdan veri alır ve ardından **socket** modülü ile yerel sistemin hostname bilgisini elde eder.
@@ -34,7 +34,7 @@ Başarılı giriş: pi / raspberry
 
 ## Description
 
-This Python program takes a **hostname** (computer name) value from the user and performs a bruteforce attack by combining the login information in the users.txt and pass.txt files. (It is purely for educational purposes. I am not responsible for any misuse.)
+This Python program takes a **hostname** (computer name) value from the user and performs a bruteforce attack by combining the login information in the users.txt and passwords.txt files. (It is purely for educational purposes. I am not responsible for any misuse.)
 
 The program takes data from the user with a simple **input()** function and then obtains the hostname information of the local system with the **socket** module.
 
